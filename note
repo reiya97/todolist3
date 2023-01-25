@@ -1,0 +1,17 @@
+todoリストに難易度・優先順位をつける
+優先順位順に並び替える
+ローカルストレージを使う
+LocalStorageに保存できる形式は文字列のみ
+
+
+localStorageの個数が0じゃなかったら
+表示
+
+localStorageの個数が0だったら
+
+入力
+localStorageに保存
+優先順位順に並び替える
+
+完了
+clear

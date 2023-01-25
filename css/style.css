@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  background: rgb(230, 230, 230);
+}
+
+h1 {
+  opacity: 0;
+  margin: 20px auto;
+  /* background: white; */
+  font-size: 54px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-shadow: 2px 2px 2px rgb(117, 117, 117);
+}
+
+#sheet {
+  opacity: 0;
+  width: 400px;
+  height: 500px;
+  background: rgb(255, 255, 255);
+  border-radius: 8%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+	left: 50%;
+  box-shadow: 2px 2px 4px rgb(128, 128, 128);
+  /* display: flex; */
+  /* justify-content: center; */
+  text-align: center;
+}
+
+#inputParts {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: inline-flex;
+}
+
+#input, #addButton {
+  font-size: 1em; 
+  line-height: 1.2;
+  padding: 8px;
+  border: 2px solid;
+}
+
+#input {
+  width: 200px;
+  border-color: rgb(206, 206, 206);
+}
+
+#addBtn {
+  width: 52px;
+  border-color: transparent;
+  background: rgb(174, 250, 255);
+  color: white;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+#addBtn:hover {
+  background: rgb(92, 228, 238);
+}
+
+#taskList {
+  padding-left: 0;
+  /* font-size: 28px; */
+  text-align: center;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.task {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 300px;
+  height: 28px;
+  border-bottom: solid 2px rgb(206, 206, 206);
+  font-size: 20px;
+  background: rgb(255, 255, 255);
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-between;
+  transition: 0.8s;
+}
+
+.nextTask {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 300px;
+  height: 28px;
+  border-bottom: solid 2px rgb(206, 206, 206);
+  font-size: 20px;
+  background: rgb(255, 255, 255);
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-between;
+  transition: 0.8s;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.nextTask:hover {
+  background: rgb(206, 206, 206);
+}
+
+.checked {
+  background: rgb(206, 206, 206);
+  text-decoration: line-through;
+}
+
+.delBtn {
+  width: 52px;
+  height: 28px;
+  background: rgb(255, 127, 127);
+  font-size: 1em;
+  color: white;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.delBtn:hover {
+  background: rgb(218, 70, 70);
+}
+
+#message {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+#next {
+  width: 400px;
+  padding: 10px 0;
+  background: rgb(255, 255, 255);
+  color: rgb(82, 82, 82);
+  position: absolute;
+  transform: translate(-50%, -80%);
+  top: 90%;
+	left: 50%;
+  box-shadow: 2px 2px 4px rgb(128, 128, 128);
+  text-align: center;
+  cursor: pointer;
+  pointer-events: none;
+  opacity: 0.5;
+  transition: 0.8s;
+}
+
+#next:hover {
+  background: rgb(201, 201, 201);
+}
+
+#secondNext {
+  width: 400px;
+  padding: 10px 0;
+  background: rgb(255, 255, 255);
+  color: rgb(82, 82, 82);
+  position: absolute;
+  transform: translate(-50%, -80%);
+  top: 90%;
+	left: 50%;
+  box-shadow: 2px 2px 4px rgb(128, 128, 128);
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#secondNext:hover {
+  background: rgb(201, 201, 201);
+}
+
+#thirdNext {
+  width: 400px;
+  padding: 10px 0;
+  background: rgb(255, 0, 0);
+  color: white;
+  position: absolute;
+  transform: translate(-50%, -80%);
+  top: 90%;
+	left: 50%;
+  box-shadow: 2px 2px 4px rgb(128, 128, 128);
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#thirdNext:hover {
+  background: rgb(202, 26, 26);
+}
